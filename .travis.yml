@@ -1,7 +1,8 @@
+dist: trusty
 sudo: false
 language: python
 python:
   - 2.7
   - 3.6
 script:
-  - echo "Hello Travis."
+  - pytest
